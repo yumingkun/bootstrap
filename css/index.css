@@ -166,6 +166,7 @@ body {
      border: 1px solid red;
       padding: 40px 0;
       background: #eee;
+      border: 1px solid red;
 }
 
 
@@ -183,17 +184,21 @@ body {
     line-height: 1.6;
 }
 
+/*左侧*/
 .info-content {
     background-color: #fff;
     box-shadow: 2px 2px 3px #ccc;
     margin: 0 0 20px 0;
+    border: 1px solid red;
 }
 .info-content img {
     margin: 12px 0;
+    border: 1px solid red;
 }
 .info-content h4 {
     font-size: 14px;
     padding: 2px 0 0 0;
+    border: 1px solid red;
 }
 .info-content p {
     line-height: 1.6;
@@ -207,4 +212,43 @@ body {
   white-space: nowrap;
     /*多余的显示。。。*/
   text-overflow: ellipsis;
+}
+
+
+
+
+/*案例case 的css*/
+
+.case{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.case p{
+     color: #666;
+    line-height: 1.6;
+}
+
+
+/*关于about*/
+/*//CSS 部分 */
+#about {
+  padding: 40px 15px;
+  background-color: #eee;
+}
+#about .about {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+    padding-bottom: 20px;
+}
+#about h3 {
+    margin: 0 0 10px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+#about p {
+    line-height: 2;
+    font-size: 13px;
+
 }
